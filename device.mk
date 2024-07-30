@@ -5,9 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-<<<<<<< HEAD
 LOCAL_PATH := device/samsung/a34x
-=======
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -17,5 +15,4 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Some useful binaries
-PRODUCT_PACKAGES += shrink
->>>>>>> 5830dc5 (multidisabler: Patch R/O EROFS Vendor Image)
+PRODUCT_PACKAGES += shrink bxhsed
